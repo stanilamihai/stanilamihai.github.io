@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/Assets/style.css">
+	<title>Rebus</title>
+</head>
+
+<body>
+	<h1>Rebus</h1>
+	<a href="/probe.html"><img class="home" src="/Assets/acasa.png"></a>
+
+
+	<form>
+		<!-- Clasa -->
+		<h2 class="less-margin">Clasa</h2>
+		<input type="radio" id="clasa-8" name="clasa" value="8">
+		<label for="html" class="big-text">8</label>
+		&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+		&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+		<input type="radio" id="clasa-9" name="clasa" value="9">
+		<label for="css" class="big-text">9</label>
+		<br><br>
+
+		<!-- Numele -->
+		<label for="nume-elev">
+			<h2 class="less-margin">Elevul</h2>
+		</label>
+		<input type="text" placeholder="Numele elevului" id="nume-elev">
+		<br>
+
+		<input type="button" value="Verifică" id="validate-button">
+		<br><br>
+
+
+
+		<label for="score-add">
+			<h2 class="less-margin">Adăugare scor</h2>
+		</label>
+		<input type="number" value="1" id="score-add">
+		<br><br>
+
+
+		<h2 class=" inline" id="proba-1">Punctaj : 0</h2>
+		<input type="button" value="+" id="button-proba1-add">
+		<input type="button" value="-" id="button-proba1-subtract">
+		<br>
+
+		<h2 class="inline" id="proba-2">Ora : 0</h2>
+		<input type="button" value="+" id="button-proba2-add">
+		<input type="button" value="-" id="button-proba2-subtract">
+	</form>
+
+
+	<script type="module" src="/Assets/rebus.js"></script>
+</body>
+
+</html>

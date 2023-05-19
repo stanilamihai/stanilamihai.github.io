@@ -1,0 +1,25 @@
+-labirint
+	-3 trasee
+		-fiecare 3 probe (cu punctaj)
+		-dupa ordine:
+			-stiinte
+			-arta
+			-sport
+
+-rebus
+	-1 punctaj
+	-timp
+
+-pisa
+
+
+
+
+
+-output rezultate:
+pentru fiecare proba da output la top 5 elevi
+	sortare puncte individual + grija la labirint (3 locuri 1)
+
+
+-punctaj pentru clasa a opta si a noua
+-fara diacritice

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+body {
+	background-image: linear-gradient(to bottom, #ffffd3, #b8ecff);
+	background-attachment: fixed;
+	background-size: contain;
+	color: black;
+
+	margin: 2.5%;
+
+	font-family: "Roboto", sans-serif;
+	font-size: 36px;
+}
+
+h1 {
+	font-family: "Pacifico", cursive;
+	font-size: 98px;
+	text-align: center;
+	margin: 100px;
+}
+
+h2.inline {
+	display: inline;
+	margin-right: 25px;
+}
+
+h2.less-margin {
+	margin: 15px 0px;
+}
+
+div.bottom {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+
+	margin-bottom: 25%;
+}
+
+img.home {
+	position: absolute;
+	left: 2.5%;
+	top: calc(2.5% + 100px);
+
+	width: 100px;
+	height: auto;
+}
+
+
+
+
+
+
+/* ========= Button ========= */
+a.button {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+
+	margin: 10% auto;
+}
+
+a>button {
+	display: inline;
+
+	min-width: 60%;
+	height: 120px;
+
+	background-color: #9f5fff;
+	color: white;
+
+	border: 2px solid #9f5fff;
+	border-radius: 10px;
+
+	font-family: "Roboto", sans-serif;
+	font-size: 48px;
+
+	transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+a>button:active {
+	background-color: #e3c8ff;
+	color: black;
+}
+
+
+
+
+
+
+/* ======== Forms ============== */
+
+input[type="text"],
+input[type="number"] {
+	width: 50%;
+	height: 100px;
+
+	font-family: "Roboto", sans-serif;
+	font-size: 42px;
+}
+
+input[type="radio"] {
+	width: 72px;
+	height: 72px;
+}
+
+label.big-text {
+	font-family: "Roboto", sans-serif;
+	font-size: 72px;
+}
+
+input[type="button"] {
+	display: inline-block;
+
+	min-width: 120px;
+	height: 120px;
+	margin: 5% auto;
+
+	background-color: #9f5fff;
+	color: white;
+
+	border: 2px solid #9f5fff;
+	border-radius: 15px;
+
+	font-family: "Roboto", sans-serif;
+	font-size: 56px;
+}
+
+input[type="button"]:active {
+	background-color: #e3c8ff;
+	color: black;
+}
+
+
+
+input[type="submit"] {
+	display: block;
+
+	min-width: 60%;
+	height: 120px;
+	margin: 5% auto;
+
+	background-color: #9f5fff;
+	color: white;
+
+	border: 2px solid #9f5fff;
+	border-radius: 15px;
+
+	font-family: "Roboto", sans-serif;
+	font-size: 48px;
+
+	transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+input[type="submit"]:active {
+	background-color: #e3c8ff;
+	color: black;
+}
+
+
+
+
+
+@media only screen and (orientation: landscape) {
+	div.bottom {
+		position: static;
+	}
+
+	h1 {
+		font-size: 68px;
+	}
+
+	a>button {
+		margin: 30px auto;
+		width: auto;
+	}
+}
